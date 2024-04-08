@@ -1,0 +1,15 @@
+[package]
+name = "swc-multi-default-export"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+swc_bundler = "0.225.13"
+swc_common = "0.33.19"
+swc_ecma_ast = "0.112.7"
+swc_ecma_codegen = "0.148.14"
+swc_ecma_loader = "0.45.25"
+swc_ecma_parser = "0.143.12"
